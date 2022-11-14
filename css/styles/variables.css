@@ -1,0 +1,35 @@
+:root {
+  --color-primary: #faf5ce;
+  --color-secondary: #004637;
+  --color-tertiary: #7a553d;
+  --color-fourth: #c55900;
+  --color-fifth: #362419;
+  --color-white: #f4f5ff;
+  --color-black: #111111;
+  --color-grey: #d3d3d3;
+
+  --color-primary-rgb: 250, 245, 206;
+  --color-secondary-rgb: 0, 70, 55;
+  --color-tertiary-rgb: 122, 85, 61;
+  --color-fourth-rgb: 197, 89, 0;
+  --color-fifth-rgb: 54, 36, 25;
+  --color-white-rgb: 244, 245, 255;
+  --color-black-rgb: 17, 17, 17;
+  --color-grey-rgb: 211, 211, 211;
+
+  --font-primary: arial, sans-serif;
+  --font-secondary: montserrat, sans-serif;
+
+  --font-size-small: 1rem;
+  --font-size-medium: 1.5rem;
+  --font-size-large: 2rem;
+
+  --font-weight-light: 300;
+  --font-weight-normal: 400;
+  --font-weight-bold: 700;
+
+  --logo-size-phone: 50vw;
+  --logo-size-tablet: 30vw;
+  --logo-size-desktop: 20vw;
+
+}

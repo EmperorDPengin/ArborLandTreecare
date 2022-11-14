@@ -1,0 +1,36 @@
+
+header {
+  background-color: #faf5ce;
+}
+
+header::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* title id border color black with 1 pixel thickness*/
+section {
+    border-color: black;
+    border-width: 1px;
+    border-style: solid;
+}
+
+
+.container {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  margin: 0 auto;
+  padding: 1rem 0;
+}
+
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  
+}
+
+.logo {
+  width: 35vw;
+}
