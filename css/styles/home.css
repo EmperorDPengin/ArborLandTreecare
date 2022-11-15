@@ -12,7 +12,7 @@ section {
 /* ------------------------------------------------------- */
 .about {
   width: 100%;
-  margin-top: 11rem;
+  /* margin-top: 11rem; */
   
 }
 
@@ -384,7 +384,7 @@ section {
 /* Media Query Phone Medium */
 @media all and (min-width: 375px) {
  .about {
-  margin-top: 12rem;
+  /* margin-top: 12rem; */
  }
 
  /* .about-img {
@@ -396,7 +396,7 @@ section {
 /* Media Query Phone Large */
 @media all and (min-width: 425px) {
  .about {
-  margin-top: 13rem;;
+  /* margin-top: 13rem; */
  }
 }
 
@@ -404,7 +404,7 @@ section {
 @media all and (min-width: 768px) {
 
   .about {
-    margin-top: 11rem;
+    /* margin-top: 11rem; */
   }
   
 }
@@ -413,7 +413,7 @@ section {
 @media all and (min-width: 1024px) {
 
   .about {
-    margin-top: 14rem;
+    /* margin-top: 14rem; */
   }
 
   .about .about-info h1 {
@@ -453,7 +453,7 @@ section {
 /* Media Query laptop Large*/
 @media all and (min-width: 1440px) {
   .about {
-    margin-top: 18rem;
+    /* margin-top: 18rem; */
   }
 
   .about .about-description .description-quote {
@@ -468,7 +468,7 @@ section {
 /*  Media Query laptop HD 1920x1080 */
 @media all and (min-width: 1920px)  {
  .about {
-  margin-top: 17rem;
+  /* margin-top: 17rem; */
  }
 }
 

@@ -11,12 +11,12 @@ html, body {
 }
 
 .header {
-  position: fixed;
+  /* position: ; */
   width: 100%;
   z-index: 3;
   display: flex;
   flex-direction: column;
-  top: 0;
+  /* top: 0; */
 }
 
 
@@ -30,7 +30,7 @@ html, body {
   background: var(--color-primary, black);
   /* padding: 5px 0 0 0; */
   box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 3;
   /* border color ro terciary */
@@ -326,7 +326,7 @@ html, body {
     width: 100%;
   }
 
-  .header-nav p {
+  /* .header-nav p {
     position: absolute;
     top: 100%;
     font-size: 1.2rem;
@@ -334,7 +334,7 @@ html, body {
 
   .header-nav p span {
     font-size: 1.2rem;
-  }
+  } */
 }
 
 /* Media Query Laptop */
@@ -354,7 +354,7 @@ html, body {
     width: 35%;
   }
   .header .header-nav .logo img {
-    content: url("../images/logo/arborbannernumber.png");
+    content: url("../../images/logo/arborbannernumber.png");
   }
 
   .header .header-nav .button {
@@ -374,10 +374,10 @@ html, body {
     width: 100%;
   }
 
-  .header-nav p {
+  /* .header-nav p {
     position: absolute;
     top: 100%;
-  }
+  } */
 }
 
 /* Media Query laptop Large*/
@@ -418,19 +418,19 @@ html, body {
     font-size: 1.5rem;
   }
 
-  .header-nav p {
+  /* .header-nav p {
     position: absolute;
     top: 100%;
     font-size: 1.5rem;
     /* text-decoration: underline; */
-  }
-  .header-nav p span {
+  } */
+  /* .header-nav p span {
     font-size: 1.5rem;
     text-decoration: underline;
   } 
   .header-nav p span strong {
     font-size: 1.7rem;
-  }
+  } */
 
 
 
