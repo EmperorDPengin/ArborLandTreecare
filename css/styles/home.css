@@ -193,7 +193,7 @@ html, body {
   color: var(--color-primary);
   background-color: var(--color-secondary);
   /* border-top: 0; */
-  padding: 5px 0;
+  padding: 5px 5px;
   justify-content: center;
 }
 
@@ -310,15 +310,15 @@ html, body {
 
 /* when the service-button is hover alternate colors */
 .services-button a:hover {
-  background-color: var(--color-primary);
-  color: var(--color-secondary);
+  background-color: var(--color-secondary);
+  /* color: var(--color-white); */
 }
 
 .services-button a{
   background-color: var(--color-tertiary);
     color: #fff;
     border-radius: 45px;
-    font-size: 18px;
+    font-size: 1rem;
     border: 1px solid #c55900;
     padding: 18px 30px;
     transition: 0.4s ease all;
@@ -463,9 +463,7 @@ html, body {
 
 /* Media Query Phone Large */
 @media all and (min-width: 425px) {
- .about {
-  /* margin-top: 13rem; */
- }
+ 
 }
 
 /* Media Query  Tablet*/

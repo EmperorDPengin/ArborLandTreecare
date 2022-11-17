@@ -44,7 +44,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   align-items: center;
-  font-size: .60rem;
+  font-size: .75rem;
 }
 
 .header .header-nav .header-contact ul li i{
@@ -251,6 +251,10 @@
 
 /* Media Query Phone Large */
 @media all and (min-width: 425px) {
+  .header-contact li {
+    /* font-size: 1rem; */
+  }
+
   .header-nav .logo {
     margin-right: 20px;
   }

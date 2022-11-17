@@ -85,6 +85,7 @@ footer {
   /* padding: 5px 10px 5px 0; */
   /* margin-bottom: 5px; */
   /* background-color: var(--color-secondary, #c55900); */
+  justify-self: flex-end;
 }
 
 .footer-connect {
