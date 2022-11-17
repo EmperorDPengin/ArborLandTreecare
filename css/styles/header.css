@@ -11,15 +11,11 @@ html, body {
 }
 
 .header {
-  /* position: ; */
   width: 100%;
   z-index: 3;
   display: flex;
   flex-direction: column;
-  /* top: 0; */
 }
-
-
 
 
 .header-nav {
@@ -46,39 +42,35 @@ html, body {
   padding: 10px 0 10px 10px;
   margin-bottom: 5px; 
   
-  /* border: 1px solid red; */
   background-color: var(--color-secondary, #c55900);
+  font-size: 4vw;
 }
 .header .header-nav .header-contact ul {
   display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: left;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
   width: 100%;
-  /* border: 1px solid red; */
 }
-.header .header-nav .header-contact li {
+.header .header-nav .header-contact ul li {
   display: flex;
   flex-direction: row;
-  justify-content: left;
+  justify-content: space-around;
   align-items: center;
+  width: 50%;
+  font-size: .75rem;
 }
 
 .header .header-nav .header-contact ul li i{
   content: "\f0e0";
-  width: 10%;
-  font-size: 1.2rem;
   text-align: center;
   color: var(--color-white, #7a553d);
-  
-  /* background-color: #004637; */
+  margin: 0;
 }
 .header .header-nav .header-contact ul li a {
   text-decoration: none;
-  margin-left: 10px;
   width: 90%;
   font-weight: bold;
-  /* display: block; */
   color: var(--color-white, #7a553d);
 }
 
@@ -398,8 +390,8 @@ html, body {
     font-weight: 800;
     position: absolute;
     right: 4%;
-    top: 53%;
-    height: 40px;
+    top: 13.5%;
+    /* height: 40px; */
   }
   .header .header-nav .menu-icon {
     display: none;
@@ -422,8 +414,8 @@ html, body {
     position: absolute;
     top: 100%;
     font-size: 1.5rem;
-    /* text-decoration: underline; */
-  } */
+    text-decoration: underline; 
+  */
   /* .header-nav p span {
     font-size: 1.5rem;
     text-decoration: underline;
